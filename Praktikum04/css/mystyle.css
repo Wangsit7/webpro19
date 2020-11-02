@@ -1,0 +1,73 @@
+body {
+    background: url("villa.jpeg");
+    background-size: 850px;
+    background-repeat: repeat-x;
+    background-color: deepskyblue;
+}
+
+
+h1.right {
+    text-align: center;
+    text-decoration: underline overline dotted white;
+    line-height: 10px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: oblique;
+    color:black;
+    position: relative;
+}
+
+.paragraf {
+    margin: 20px;
+    border: 2px solid red;
+    padding: 15px;
+    width: 780px;
+    background-color: rgba(179, 255, 0, 0.705);
+    display: inline-block;
+    float: none;
+    
+}
+
+.form{
+    display: grid;
+    float: right;
+    margin-right: 40px;
+    background-color: magenta;
+}
+
+#fasilitas {
+    font-size: 25px;
+    color:black;
+    margin-top: 1px;
+    border: 2px solid blue;
+    width: 190px;
+    background-color: lawngreen;
+    
+}
+
+.list {
+    list-style: square;
+    margin: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block
+}
+
+#gambar {
+    width: 250px;
+    float: center;
+    display: grid
+    margin-right 10px;
+}
+
+#text {
+    margin: 20px;
+    border: 2px solid red;
+    padding: 15px;
+    width: 780px;
+    background-color: rgba(179, 255, 0, 0.705);
+    display: inline-block;
+    float: none;
+}
