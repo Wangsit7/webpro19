@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewimport" content="width=device-width, initial-scale=1,0">
+        <title>Form login</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="otentikasi.js"></script>
+    </head>
+    <body>
+        <div id="card">
+            <div id="card-content">
+                <div id="card-title">
+                    <h1>LOGIN</h1>
+                    <div class="underline-title"></div>
+                </div>
+            </div>
+            <form action="berhasil.html" method="get" id="myForm" onsubmit=" return validasi()" class="form">
+                <label for="user-email" style="padding-top:13px">&nbsp;Email</label>
+                <input type="text" id="user-email" class="form-content" name="username" autocomplete="on" required/>
+                <div class="form-border"></div>
+                <label for="user-password" style="padding-top: 22px;">&nbsp;Password</label>
+                <input id="user-password" class="form-content" type="password" name="password" required/>
+                <div class="form-border"></div>
+                <input id="submit-btn" type="submit" name="submit" value="LOGIN" onclick="validasi()"/>
+            </form>
+        </div>
+    </body>
+</html>
